@@ -30,3 +30,7 @@ like the code below
 '''
 
 print('My name is {name} and i am {age}'.format(name=name, age=age))
+
+# or
+
+print(f'My name is {name} and i am {age}')
