@@ -34,3 +34,65 @@ print('My name is {name} and i am {age}'.format(name=name, age=age))
 # or
 
 print(f'My name is {name} and i am {age}')
+
+
+#String Methods
+
+n = 'abdul frfr'
+
+#capitalize string
+
+print(n.capitalize())
+
+#uppercase
+
+print(n.upper())
+
+#lowercase
+
+print(n.lower())
+
+# swapcase
+
+print(n.swapcase())
+
+#get length
+
+print(len(n))
+
+#replace string
+
+print(n.replace('abdul', 'everyone'))
+
+#count a letter
+
+sub = 'r'
+print(n.count(sub))
+
+#to check if it starts with a particular word
+
+print(n.startswith('hello'))
+
+#to check if it ends with a letter or a word
+
+print(n.endswith('v'))
+
+#split the strings which is going to turn it into n array
+
+print(n.split())
+
+#find position of a character or a string
+
+print(n.find('r'))
+
+#check if your variable is alphanumeric
+
+print(n.isalnum())
+
+#check if your variable is only alphabets
+
+print(n.isalpha())
+
+#check if your variable is all numbers
+
+print(n.isnumeric())
