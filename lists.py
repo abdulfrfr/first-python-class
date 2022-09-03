@@ -32,5 +32,11 @@ numbers.pop(0)
 
 alphas.reverse()
 
+alphas.sort()
+
+alphas.sort(reverse=True)
+
+alphas[2] = 'blueberry'
+
 print(alphas)
 print(numbers)
