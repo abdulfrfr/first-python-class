@@ -12,7 +12,7 @@ print(alphas[7])
 #Get length of a list
 print(len(alphas))
 
-#add to the list
+# add to the list
 
 alphas.append('added')
 
@@ -32,10 +32,14 @@ numbers.pop(0)
 
 alphas.reverse()
 
+# sort values; this will arrange your itmes alphabetically or in accending order
 alphas.sort()
+
+# Reverse sort values; this will arrange your itmes alphabetically but in deccending order
 
 alphas.sort(reverse=True)
 
+# change a value
 alphas[2] = 'blueberry'
 
 print(alphas)
