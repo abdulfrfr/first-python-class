@@ -23,8 +23,8 @@ del fruits2
 print(len(fruits))
 
 
-#A set is a collection thats unordered and unchangable. It does not allow duplicate values
-
+# A set is a collection thats unordered and unchangable. It does not allow duplicate values
+# Adding a duplicate will not throw an error but will not make any effect on your set
 #Create set
 
 fruitSet = {'Apple', 'Mangoe', 'Pear', 'Grape'}
@@ -36,5 +36,11 @@ fruitSet.add('Straw')
 
 print('Apple' in fruitSet) # this will throw a True of False depending on wether that value is in the set
 
+# remove from set
+fruitSet.remove('Mangoe')
+
+# 'fruitSet.clear()' will empty your set but will keep it existing
+
+# 'del fruitSet' will delete the entire set and make it non existing
 
 print(fruitSet)
